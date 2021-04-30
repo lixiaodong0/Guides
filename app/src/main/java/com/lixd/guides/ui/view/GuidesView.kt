@@ -63,8 +63,8 @@ class GuidesView constructor(context: Context, attrs: AttributeSet) :
             }
 
             val paint = Paint(Paint.ANTI_ALIAS_FLAG)
-            paint.color = Color.BLUE
-            paint.strokeWidth = 10f
+            paint.color = Color.parseColor("#FF018786")
+            paint.strokeWidth = 4f
             paint.style = Paint.Style.STROKE
 
             canvas.drawPath(path, paint)
